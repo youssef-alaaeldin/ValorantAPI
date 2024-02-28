@@ -3,6 +3,10 @@
 ## Overview
 The Valorant Companion App is an iOS application designed to provide users with access to Valorant game data, including maps, bundles, and agents, through integration with the Valorant API. Users can easily navigate between different sections using the navigation bar. Additionally, the app stores agent data locally using Realm, allowing users to access it even when offline. Furthermore, users can view detailed information about each agent by tapping on their profile. Images are cached using SDWebImage to reduce network usage.
 
+## Screenshots
+![Screenshot 1](https://drive.google.com/file/d/11KNIkr2IGCBG0hOtYLJFX2GD5qL5g8x0/view?usp=drive_link)
+
+
 ## Features
 - Fetches data from the Valorant API, including maps, bundles, and agents.
 - Utilizes a navigation bar for seamless navigation between different sections.
