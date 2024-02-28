@@ -27,9 +27,6 @@ class AgentsViewController: UIViewController {
         
         self.setUpGridView()
         fetchData()
-//        try? realm.write {
-//            realm.deleteAll()
-//        }
     }
     
     func setUpGridView() {
