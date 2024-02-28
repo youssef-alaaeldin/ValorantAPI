@@ -22,7 +22,7 @@ class AgentsDataManager {
     
     func fetchAgentsDataFromAPI(completion: @escaping ([AgentsDatum]) -> Void) {
         let apiHandler = APIHandler()
-        apiHandler.fetchDataFromAPI(withAttribute: "agentssss") { (result: Result<Agents, Error>) in
+        apiHandler.fetchDataFromAPI(withAttribute: "agents") { (result: Result<Agents, Error>) in
             switch result {
             case .success(let data):
                 self.saveDataToRealm(data)
